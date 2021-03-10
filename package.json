@@ -1,0 +1,25 @@
+{
+  "name": "node-rabbitmq-event-manager",
+  "version": "1.0.0",
+  "description": "A Node Event Manager using RabbitMQ to exchange events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "rabbitMQ"
+  ],
+  "author": "alireza236",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "monk": "^7.3.1",
+    "morgan": "^1.10.0",
+    "rabbitmq-event-manager": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
